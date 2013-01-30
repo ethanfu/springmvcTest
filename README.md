@@ -5,5 +5,5 @@ Spring Mvc小例子，使用maven来构建项目，学习spring mvc的基本功�
 本项目使用maven构建，如果使用eclipse来导入项目，需要先使用mvn eclipse:eclipse 转化为eclipse项目之后完成直接import就可以，如果使用Intellij idea 则直接import project选中pom.xml的文件即可
 
 ##运行
-命令行进入项目目录，直接mvn tomcat:run  即可
+命令行进入项目目录，直接mvn tomcat:run  即可 
 如果使用Intellij idea来执行maven命令，在Run下edit configuration中添加一个maven，然后在Command line上写入tomcat:run 即可
