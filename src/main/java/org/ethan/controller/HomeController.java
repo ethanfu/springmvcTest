@@ -18,7 +18,7 @@ public class HomeController {
 
     @RequestMapping(value="/list")
     public ModelAndView list(HttpServletResponse response) throws IOException{
-        return new ModelAndView("home");
+        return new ModelAndView("list");
     }
 
 }
