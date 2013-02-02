@@ -6,11 +6,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Home</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+
 </head>
 <body>
 <h1>Hello World!</h1>
 
 <p>This is the homepage!</p>
-<a href="./edit" class="">Edit Page</a>
+<a href="./edit" class="btn btn-primary btn-large">Edit Page</a>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
