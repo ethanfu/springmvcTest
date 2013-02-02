@@ -11,6 +11,11 @@
 <h1>Hello World!</h1>
 
 <p>This is the homepage!</p>
-<a href="./edit" class="">Edit Page</a>
+
+<p>update the value is :${name}     </p>
+<form action="doEdit" method="post">
+    <input name="name" value="${name}"/>
+    <input type="submit" value="submit">
+</form>
 </body>
 </html>
